@@ -10,7 +10,7 @@
 ### Usage
 
 ```
-gitSQL import/export -s <ServerName> -i <InstanceName> -a <WindowsAuth> [-u <Username>] [-p <Password>] -d <Directory> [-o <OptionsFile>] [-w <WaitForUserInputAtTheEnd>]
+gitSQL import/export -s <ServerName> -i <InstanceName> -a <WindowsAuth> [-u <Username>] [-p <Password>] -d <Directory> [-o <OptionsFile>] 
 
 Argument list example:
          -s  :  localhost
