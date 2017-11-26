@@ -30,15 +30,15 @@ Argument list example:
 gitsql export -s DESKTOP -i SQLEXPRESS -o opts.json -d "c:\source_control"
 ```
 
+__Hint__:
+
+An options file is required if more than one database is located in the export directory.
+
 #### Import
 
 ```
 gitsql import -s DESKTOP -i SQLEXPRESS -d "c:\source_control"
 ```
-
-__Hint__:
-
--d is the path to the source control directory where the database has been exported to. An options file is required if more than one database is located in this directory.
 
 ### Options File
 
